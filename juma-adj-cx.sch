@@ -1,0 +1,308 @@
+EESchema Schematic File Version 4
+LIBS:juma-adj-cx-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5B5A24CE
+P 3600 2950
+F 0 "R1" H 3450 3000 50  0000 L CNN
+F 1 "3k/2W" H 3300 2900 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 3530 2950 50  0001 C CNN
+F 3 "~" H 3600 2950 50  0001 C CNN
+	1    3600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5B5A2533
+P 4200 2950
+F 0 "C2" H 4318 2996 50  0000 L CNN
+F 1 "22m" H 4318 2905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 4238 2800 50  0001 C CNN
+F 3 "~" H 4200 2950 50  0001 C CNN
+	1    4200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5B5A2608
+P 4500 2600
+F 0 "R2" H 4570 2646 50  0000 L CNN
+F 1 "150" H 4570 2555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4430 2600 50  0001 C CNN
+F 3 "~" H 4500 2600 50  0001 C CNN
+	1    4500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 5B5A2660
+P 4500 3450
+F 0 "C3" H 4618 3496 50  0000 L CNN
+F 1 "470u" H 4618 3405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 4538 3300 50  0001 C CNN
+F 3 "~" H 4500 3450 50  0001 C CNN
+	1    4500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM_US RV1
+U 1 1 5B5A2936
+P 4900 3050
+F 0 "RV1" H 4832 3096 50  0000 R CNN
+F 1 "1k/.5W" H 4832 3005 50  0000 R CNN
+F 2 "lib:3362P-1-102LF" H 4900 3050 50  0001 C CNN
+F 3 "~" H 4900 3050 50  0001 C CNN
+	1    4900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5B5A29DF
+P 4900 3450
+F 0 "R3" H 4970 3496 50  0000 L CNN
+F 1 "10k" H 4970 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4830 3450 50  0001 C CNN
+F 3 "~" H 4900 3450 50  0001 C CNN
+	1    4900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5B5A2A7B
+P 5700 3050
+F 0 "R4" H 5770 3096 50  0000 L CNN
+F 1 "2k" H 5770 3005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5630 3050 50  0001 C CNN
+F 3 "~" H 5700 3050 50  0001 C CNN
+	1    5700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_ECB Q1
+U 1 1 5B5A2FE1
+P 5300 2700
+F 0 "Q1" V 5628 2700 50  0000 C CNN
+F 1 "BD139" V 5537 2700 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 5500 2800 50  0001 C CNN
+F 3 "~" H 5300 2700 50  0001 C CNN
+	1    5300 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q2
+U 1 1 5B5A31CE
+P 5700 2300
+F 0 "Q2" V 6028 2300 50  0000 C CNN
+F 1 "2SC5200" V 5937 2300 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-264-3_Vertical" H 5900 2400 50  0001 C CNN
+F 3 "~" H 5700 2300 50  0001 C CNN
+	1    5700 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 5B5A32DD
+P 5300 3450
+F 0 "C4" H 5418 3496 50  0000 L CNN
+F 1 "1000u" H 5418 3405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 5338 3300 50  0001 C CNN
+F 3 "~" H 5300 3450 50  0001 C CNN
+	1    5300 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2200 5900 2200
+Wire Wire Line
+	5700 2500 5700 2600
+Wire Wire Line
+	5500 2600 5700 2600
+Connection ~ 5700 2600
+Wire Wire Line
+	5700 2600 5700 2900
+Wire Wire Line
+	5300 2900 5300 3050
+Wire Wire Line
+	5050 3050 5300 3050
+Connection ~ 5300 3050
+Wire Wire Line
+	5300 3050 5300 3300
+Wire Wire Line
+	4900 3200 4900 3300
+Wire Wire Line
+	6000 3700 5700 3700
+Wire Wire Line
+	4500 3600 4500 3700
+Connection ~ 4500 3700
+Wire Wire Line
+	4500 3700 4200 3700
+Wire Wire Line
+	4900 3600 4900 3700
+Connection ~ 4900 3700
+Wire Wire Line
+	4900 3700 4500 3700
+Wire Wire Line
+	5300 3600 5300 3700
+Connection ~ 5300 3700
+Wire Wire Line
+	5300 3700 4900 3700
+Wire Wire Line
+	5700 3200 5700 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	5700 3700 5300 3700
+Wire Wire Line
+	5500 2200 5000 2200
+Wire Wire Line
+	5100 2600 5000 2600
+Wire Wire Line
+	5000 2600 5000 2200
+Connection ~ 5000 2200
+Wire Wire Line
+	5000 2200 4500 2200
+Wire Wire Line
+	4900 2850 4500 2850
+Wire Wire Line
+	4500 2850 4500 2750
+Wire Wire Line
+	4500 3300 4500 2850
+Connection ~ 4500 2850
+Wire Wire Line
+	4500 2450 4500 2200
+Connection ~ 4500 2200
+Wire Wire Line
+	4500 2200 4200 2200
+Wire Wire Line
+	4200 2800 4200 2200
+Connection ~ 4200 2200
+Wire Wire Line
+	4200 2200 3850 2200
+Wire Wire Line
+	4200 3100 4200 3700
+Connection ~ 4200 3700
+Wire Wire Line
+	4200 3700 3850 3700
+Wire Wire Line
+	3600 2800 3600 2200
+Connection ~ 3600 2200
+Wire Wire Line
+	3600 2200 3400 2200
+Wire Wire Line
+	3600 3100 3600 3700
+Connection ~ 3600 3700
+Wire Wire Line
+	3600 3700 3400 3700
+Wire Wire Line
+	4900 2850 4900 2900
+$Comp
+L Device:C C1
+U 1 1 5B5AA633
+P 3850 2950
+F 0 "C1" H 3965 2996 50  0000 L CNN
+F 1 "2u" H 3965 2905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3" H 3888 2800 50  0001 C CNN
+F 3 "~" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2800 3850 2200
+Connection ~ 3850 2200
+Wire Wire Line
+	3850 2200 3600 2200
+Wire Wire Line
+	3850 3100 3850 3700
+Connection ~ 3850 3700
+Wire Wire Line
+	3850 3700 3600 3700
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5B5ADC06
+P 6200 2200
+F 0 "J3" H 6200 2300 50  0000 C CNN
+F 1 "OUT+" H 6300 2200 50  0000 L CNN
+F 2 "ose-audio-labs:FASTON_TAB" H 6200 2200 50  0001 C CNN
+F 3 "~" H 6200 2200 50  0001 C CNN
+	1    6200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5B5ADC66
+P 6200 3700
+F 0 "J4" H 6200 3800 50  0000 C CNN
+F 1 "OUT-" H 6300 3700 50  0000 L CNN
+F 2 "ose-audio-labs:FASTON_TAB" H 6200 3700 50  0001 C CNN
+F 3 "~" H 6200 3700 50  0001 C CNN
+	1    6200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5B5ADCCC
+P 3200 2200
+F 0 "J1" H 3200 2100 50  0000 C CNN
+F 1 "IN+" H 3450 2200 50  0000 R CNN
+F 2 "ose-audio-labs:FASTON_TAB" H 3200 2200 50  0001 C CNN
+F 3 "~" H 3200 2200 50  0001 C CNN
+	1    3200 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5B5ADD5B
+P 3200 3700
+F 0 "J2" H 3200 3600 50  0000 C CNN
+F 1 "IN-" H 3450 3700 50  0000 R CNN
+F 2 "ose-audio-labs:FASTON_TAB" H 3200 3700 50  0001 C CNN
+F 3 "~" H 3200 3700 50  0001 C CNN
+	1    3200 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK1
+U 1 1 5B5B44DB
+P 3000 4050
+F 0 "MK1" H 3100 4096 50  0000 L CNN
+F 1 "Mounting_Hole" H 3100 4005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 3000 4050 50  0001 C CNN
+F 3 "" H 3000 4050 50  0001 C CNN
+	1    3000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK2
+U 1 1 5B5B4544
+P 3000 4250
+F 0 "MK2" H 3100 4296 50  0000 L CNN
+F 1 "Mounting_Hole" H 3100 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 3000 4250 50  0001 C CNN
+F 3 "" H 3000 4250 50  0001 C CNN
+	1    3000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK3
+U 1 1 5B5B45AD
+P 3000 4450
+F 0 "MK3" H 3100 4496 50  0000 L CNN
+F 1 "Mounting_Hole" H 3100 4405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 3000 4450 50  0001 C CNN
+F 3 "" H 3000 4450 50  0001 C CNN
+	1    3000 4450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
